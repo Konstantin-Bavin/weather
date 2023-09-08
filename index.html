@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My weather APP</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="search">
+      <i class="fa-solid fa-location-dot"></i>
+      <input type="text" placeholder="Введите Ваш Город">
+      <button class="fa-solid fa-magnifying-glass"></button>
+    </div>
+    <div class="error">Ошибка! Такого города не существует</div>
+    <div class="empty">Поле ввода не было заполнено</div>
+    <div class="weather">
+      <div class="tepm">
+        <div class="weather-image">
+          <i class="fa-solid fa-cloud"></i>
+        </div>
+        <p class="weather-description">Переменная облачность</p>
+        <p class="temp-now">17 &#8451</p>
+        <p class="feels-like">Ощущается как 15.5 &#8451</p>
+        <p class="city">Омск</p>
+      </div>
+      <div class="sun">
+        <div class="sunrise">
+          <i class="fa-solid fa-sun"></i>
+          <div class="col">
+            <p class="time-sunrise">8:00</p>
+            <p>Восход</p>
+          </div>
+        </div>
+        <div class="sunset">
+          <i class="fa-solid fa-moon"></i>
+          <div class="col">
+            <p class="time-sunset">21:00</p>
+            <p>Закат</p>
+          </div>
+        </div>
+      </div>
+      <div class="ditalies">
+        <div class="humidity">
+          <i class="fa-solid fa-water"></i>
+          <div class="col">
+            <p class="humidity-now">45%</p>
+            <p>Влажность</p>
+          </div>
+        </div>
+        <div class="wind">
+          <i class="fa-solid fa-wind"></i>
+          <div class="col">
+            <p class="wind-speed">3.13 м/с</p>
+            <p>Ветер</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
