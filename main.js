@@ -36,31 +36,31 @@ async function checkWeather (city = 'москва', lang = 'ru') {
     case "Clear":
       weatherImage.className = "fa-solid fa-sun";
       container.style.backgroundColor = '#FFCA41';
-      body.style.backgroundImage = 'url(https://konstantin-bavin.github.io/myWeather/img/synnyFFCA41.png)';
+      body.style.backgroundImage = 'url(https://konstantin-bavin.github.io/weather/img/synnyFFCA41.png)';
       break;
 
     case "Rain":
       weatherImage.className = "fa-solid fa-cloud-rain";
       container.style.backgroundColor = '#6C7BA3';
-      body.style.backgroundImage = 'url(https://konstantin-bavin.github.io/myWeather/img/rain6C7BA3.png)';
+      body.style.backgroundImage = 'url(https://konstantin-bavin.github.io/weather/img/rain6C7BA3.png)';
       break;
 
     case "Mist":
       weatherImage.className = "fa-solid fa-cloud-mist";
       container.style.backgroundColor = '#E9ECEC';
-      body.style.backgroundImage = 'url(https://konstantin-bavin.github.io/myWeather/img/mistE9ECEC.png)';
+      body.style.backgroundImage = 'url(https://konstantin-bavin.github.io/weather/img/mistE9ECEC.png)';
       break;
 
     case "Drizzle":
       weatherImage.className = "fa-solid fa-cloud-drizzle";
       container.style.backgroundColor = '#7DD9BC';
-      body.style.backgroundImage = 'url(https://konstantin-bavin.github.io/myWeather/img/drizzle7DD9BC.png)';
+      body.style.backgroundImage = 'url(https://konstantin-bavin.github.io/weather/img/drizzle7DD9BC.png)';
       break;
 
     case "Clouds":
       weatherImage.className = "fa-solid fa-cloud";
       container.style.backgroundColor = '#91b8ba';
-      body.style.backgroundImage = 'url(https://konstantin-bavin.github.io/myWeather//img/cloud91b8ba.png)';
+      body.style.backgroundImage = 'url(https://konstantin-bavin.github.io/weather//img/cloud91b8ba.png)';
       break;
 
     default:
